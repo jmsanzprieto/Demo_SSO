@@ -1,0 +1,383 @@
+CRITICAL - 2024-05-16 20:10:22 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 95.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:10:41 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 651.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin()
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(64): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt()
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:10:49 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 651.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin()
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(64): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt()
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:11:54 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 1
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 651.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(177): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin()
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(64): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt()
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:12:11 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 95.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:12:28 --> ErrorException: A function with return type must return a value
+[Method: GET, Route: logout]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-16 20:12:31 --> ErrorException: A function with return type must return a value
+[Method: GET, Route: logout]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-16 20:13:06 --> ErrorException: A function with return type must return a value
+[Method: GET, Route: logout]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-16 20:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:13:13 --> ErrorException: A function with return type must return a value
+[Method: GET, Route: logout]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-16 20:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:13:34 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:15:25 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 100.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:19:04 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 20:21:11 --> TypeError: CodeIgniter\Shield\Controllers\LoginController::loginAction(): Return value must be of type CodeIgniter\HTTP\RedirectResponse, none returned
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 20:24:57 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jomasanz/project_sso/codeigniter/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jomasanz/project_sso/codeigniter/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jomasanz/project_sso/codeigniter/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/jomasanz/project_sso/codeigniter/app/Models/TokenSsoModel.php(23): CodeIgniter\BaseModel->first()
+#7 /home/jomasanz/project_sso/codeigniter/vendor/codeigniter4/shield/src/Controllers/LoginController.php(95): App\Models\TokenSsoModel->saveToken()
+#8 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+#9 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/jomasanz/project_sso/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 /home/jomasanz/project_sso/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/jomasanz/project_sso/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /home/jomasanz/project_sso/codeigniter/system/Commands/Server/rewrite.php(49): require_once('...')
+#15 {main}
+CRITICAL - 2024-05-16 20:24:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/TokenSsoModel.php(23): CodeIgniter\BaseModel->first()
+ 5 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(95): App\Models\TokenSsoModel->saveToken()
+ 6 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:24:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Models/TokenSsoModel.php(23): CodeIgniter\BaseModel->first()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(95): App\Models\TokenSsoModel->saveToken()
+ 8 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:24:57 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/TokenSsoModel.php(23): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(95): App\Models\TokenSsoModel->saveToken()
+ 9 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 20:34:20 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jomasanz/project_sso/codeigniter/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jomasanz/project_sso/codeigniter/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jomasanz/project_sso/codeigniter/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/jomasanz/project_sso/codeigniter/app/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+#7 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(933): App\Controllers\Home->demo()
+#8 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/jomasanz/project_sso/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /home/jomasanz/project_sso/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/jomasanz/project_sso/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/jomasanz/project_sso/codeigniter/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-05-16 20:34:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: GET, Route: demo]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:34:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:34:20 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-16 20:34:39 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /home/jomasanz/project_sso/codeigniter/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/jomasanz/project_sso/codeigniter/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/jomasanz/project_sso/codeigniter/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /home/jomasanz/project_sso/codeigniter/system/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/jomasanz/project_sso/codeigniter/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/jomasanz/project_sso/codeigniter/app/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+#7 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(933): App\Controllers\Home->demo()
+#8 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/jomasanz/project_sso/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/jomasanz/project_sso/codeigniter/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /home/jomasanz/project_sso/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/jomasanz/project_sso/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/jomasanz/project_sso/codeigniter/system/Commands/Server/rewrite.php(49): require_once('...')
+#14 {main}
+CRITICAL - 2024-05-16 20:34:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: GET, Route: demo]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:34:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+CRITICAL - 2024-05-16 20:34:39 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Home.php(28): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->demo()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/Commands/Server/rewrite.php(49): require_once('/home/jomasanz/project_sso/codeigniter/public/index.php')
+INFO - 2024-05-16 20:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 20:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
